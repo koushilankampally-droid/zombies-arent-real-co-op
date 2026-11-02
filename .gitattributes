@@ -1,0 +1,13 @@
+# Default behavior
+# Project-specific overrides
+*.gif binary
+src/** linguist-detectable
+
+go.sum linguist-generated
+*.ico binary
+
+public/**/*.html linguist-vendored
+
+*.bat text eol=crlf  
+* text=auto eol=lf
+public/** linguist-vendored
